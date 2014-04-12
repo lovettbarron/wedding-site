@@ -22,9 +22,9 @@ aawed.Views = aawed.Views || {};
 
             _.each(classes, function(d,i){
                 $(_this.el).find('.quote').addClass(d);
-            })
-
+            });
         	$(this.el).css('z-index','-1');
+            $(this.el).find('.quote').addClass('on').removeClass('on');
         },
 
         resize: function() {
