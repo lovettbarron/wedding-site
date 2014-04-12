@@ -1,0 +1,81 @@
+.context {
+   // background: red;
+    &.on {
+        .image {
+            .current,.buffer {
+                position:fixed!important;
+                width: 50%!important;
+            }
+        }
+    }
+
+    &.bottom {
+
+        .col-md-6 {
+            
+        }
+
+        .image{
+            
+            .current, .buffer {
+                top: auto;
+                bottom: 0;    
+            }
+        }
+    }
+
+    .image {
+        .current,.buffer {
+            position:absolute;
+            display: block;
+            width: 100%;
+            top: 0; left: 0;
+            overflow:hidden;
+        }
+
+        .current { z-index: 1}
+        .buffer { z-index: 0}
+
+        img {
+            display: block;
+            margin:20% auto;
+            width: 60%;
+            display:block;
+            // margin:auto;
+        }
+
+    }
+
+    .contextronic {
+        position:relative;
+        width:100%;
+        padding-top: 25px;
+        // background: #eee;
+        border: 0px 0px 1px 0px solid #eee;
+        // display: none;
+
+        .card {
+        	padding: 10% 5% 10% 5%;
+        	margin: 5%;
+        	background: white;
+        	font-size: 24pt;
+        }
+
+        img {
+            display: none;
+        }
+
+        @media only screen  
+            and (max-width : 767px) {
+            & {
+                display: block!important;
+
+                img {
+                    display:block;
+                    width: 100%;
+                    height: auto;
+                }
+            }   
+        }
+    }
+}
