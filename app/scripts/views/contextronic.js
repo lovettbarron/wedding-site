@@ -52,7 +52,7 @@ aawed.Views = aawed.Views || {};
 
             var t=0,i=0;
             $(this.el).find('.contextronic').each(function() { 
-                $(this).css({'min-width':$(this).width()})
+                // $(this).css({'min-width':$(this).width()})
                 $(this).height($(window).height())
                 t+=$(this).find('img').width();
             });

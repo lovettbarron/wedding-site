@@ -27,13 +27,12 @@ window.aawed = {
             el: '.quote1',
             quote:"Holy shit, they're getting married"
         }));
-
-        this.inst.app.init();
-        this.inst.test.init();
-        this.inst.map.init();
         _.each(this.quote,function(v,i) {
             v.init();
         });
+        this.inst.app.init();
+        this.inst.test.init();
+        this.inst.map.init();
     }
 };
 
