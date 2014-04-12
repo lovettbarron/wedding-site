@@ -7643,17 +7643,17 @@ td.visible-print {
     display: none !important;
   }
 }
-/* line 5, contextronic.scss */
+/* line 6, contextronic.scss */
 .context.on .image .current, .context.on .image .buffer {
   position: fixed!important;
   width: 50%!important;
 }
-/* line 20, contextronic.scss */
+/* line 21, contextronic.scss */
 .context.bottom .image .current, .context.bottom .image .buffer {
   top: auto;
   bottom: 0;
 }
-/* line 28, contextronic.scss */
+/* line 29, contextronic.scss */
 .context .image .current, .context .image .buffer {
   position: absolute;
   display: block;
@@ -7662,50 +7662,63 @@ td.visible-print {
   left: 0;
   overflow: hidden;
 }
-/* line 36, contextronic.scss */
+/* line 37, contextronic.scss */
 .context .image .current {
   z-index: 1;
 }
-/* line 37, contextronic.scss */
+/* line 38, contextronic.scss */
 .context .image .buffer {
   z-index: 0;
 }
-/* line 39, contextronic.scss */
+/* line 40, contextronic.scss */
 .context .image img {
   display: block;
   margin: 20% auto;
   width: 60%;
   display: block;
 }
-/* line 49, contextronic.scss */
+/* line 50, contextronic.scss */
 .context .contextronic {
   position: relative;
   width: 100%;
   padding-top: 25px;
   border: 0px 0px 1px 0px solid #eee;
 }
-/* line 57, contextronic.scss */
+/* line 58, contextronic.scss */
 .context .contextronic .card {
   padding: 10% 5% 10% 5%;
   margin: 5%;
   background: white;
   font-size: 18pt;
+  background-image: url("/images/paper2.png") !important;
+  background-position: top left;
 }
-/* line 64, contextronic.scss */
+/* line 67, contextronic.scss */
 .context .contextronic img {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 70, contextronic.scss */
+  /* line 73, contextronic.scss */
   .context .contextronic {
     display: block!important;
   }
-  /* line 73, contextronic.scss */
+  /* line 76, contextronic.scss */
   .context .contextronic img {
     display: block;
     width: 100%;
     height: auto;
   }
+}
+
+/* line 87, contextronic.scss */
+.wood .context {
+  background-image: url("/images/wood.png") !important;
+  background-position: top left;
+  background-attachment: scroll;
+}
+/* line 91, contextronic.scss */
+.wood .context.on {
+  background-attachment: fixed!important;
 }
 
 /* line 1, quote.scss */
