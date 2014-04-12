@@ -91,5 +91,9 @@
 		&.on {
 			background-attachment: fixed!important;
 		}
+
+		&.bottom {
+			background-position: bottom left;
+		}
    }
 }

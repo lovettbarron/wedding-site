@@ -75,3 +75,7 @@
 .wood .context.on {
   background-attachment: fixed!important;
 }
+/* line 95, contextronic.scss */
+.wood .context.bottom {
+  background-position: bottom left;
+}
