@@ -23,20 +23,32 @@ window.aawed = {
             timer: 2000
         });
 
-        this.inst.map = new aawed.Views.MapView({
-            el: '.map'
-        });
+        this.quote.push(new aawed.Views.QuoteView({
+            el: '.quote1',
+            quote:"Ayla's Story"
+        }));
 
         this.inst.test2 = new aawed.Views.ContextronicView({
             el: '.intro2',
             template:  JST['app/scripts/templates/1-intro.ejs'],
-            // timer: 2000
+            timer: 2000
+        });
+
+        this.inst.test3 = new aawed.Views.ContextronicView({
+            el: '.intro3',
+            template:  JST['app/scripts/templates/1-intro.ejs'],
+            timer: 2000
         });
 
         this.quote.push(new aawed.Views.QuoteView({
-            el: '.quote1',
-            quote:"Before long, this respect led to love for his vivacious hair, playful grin, and generous heart. "
+            el: '.quote-map',
+            quote:"We want to invite you to Invermere"
         }));
+
+        this.inst.map = new aawed.Views.MapView({
+            el: '.map'
+        });
+
         _.each(this.quote,function(v,i) {
             v.init();
         });

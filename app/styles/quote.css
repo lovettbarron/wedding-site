@@ -6,18 +6,19 @@
 /* line 5, quote.scss */
 .quote.on {
   position: fixed!important;
+  width: 100%;
   top: 0;
   left: 0;
   bottom: 0;
   left: 0;
   z-index: -100;
 }
-/* line 12, quote.scss */
+/* line 13, quote.scss */
 .quote .fullscreen {
   height: 100%;
   width: 100%;
 }
-/* line 17, quote.scss */
+/* line 18, quote.scss */
 .quote .fullscreen img {
   max-width: 100%;
   top: 0;
@@ -28,7 +29,7 @@
   overflow: auto;
   position: fixed;
 }
-/* line 27, quote.scss */
+/* line 28, quote.scss */
 .quote p {
   text-align: center;
   text-decoration: italic;

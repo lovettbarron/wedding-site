@@ -7675,11 +7675,12 @@ td.visible-print {
   left: 0;
   bottom: 0;
   right: 0;
+  width: 100%;
   height: 100%;
   z-index: 0;
   overflow: hidden;
 }
-/* line 33, helpers.scss */
+/* line 34, helpers.scss */
 .fullimage img {
   width: 100%;
 }
@@ -7701,6 +7702,11 @@ h1, h2, h3, h4, h5, h6, label {
   font-family: 'junction',helvetica,sans-serif;
   font-size: 15pt;
   font-variant: small-caps;
+}
+
+/* line 17, font.scss */
+.card h3 {
+  padding: 10pt 0 10pt 0;
 }
 
 /* line 6, contextronic.scss */
@@ -7806,18 +7812,19 @@ h1, h2, h3, h4, h5, h6, label {
 /* line 5, quote.scss */
 .quote.on {
   position: fixed!important;
+  width: 100%;
   top: 0;
   left: 0;
   bottom: 0;
   left: 0;
   z-index: -100;
 }
-/* line 12, quote.scss */
+/* line 13, quote.scss */
 .quote .fullscreen {
   height: 100%;
   width: 100%;
 }
-/* line 17, quote.scss */
+/* line 18, quote.scss */
 .quote .fullscreen img {
   max-width: 100%;
   top: 0;
@@ -7828,7 +7835,7 @@ h1, h2, h3, h4, h5, h6, label {
   overflow: auto;
   position: fixed;
 }
-/* line 27, quote.scss */
+/* line 28, quote.scss */
 .quote p {
   text-align: center;
   text-decoration: italic;

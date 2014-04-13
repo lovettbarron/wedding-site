@@ -33,6 +33,8 @@ aawed.Views = aawed.Views || {};
         	if(t.width() < 768) this.mobile = true;
         	else this.mobile = false;
 
+        	this.mobile = false;
+
         	_this.sections = [];
 			$(this.el).find('.contextronic').each(function(key,val) {
 	            	// console.log($(val));
