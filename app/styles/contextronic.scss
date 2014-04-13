@@ -40,7 +40,7 @@
         img {
             display: block;
             margin:20% auto;
-            width: 60%;
+            width: 75%;
             display:block;
             // margin:auto;
         }
@@ -57,11 +57,9 @@
 
         .card {
         	padding: 10% 5% 10% 5%;
-        	margin: 5%;
+        	margin: 5% 0 5% 5%;
         	background: white;
         	font-size: 18pt;
-        	background-image: url('/images/paper2.png')!important;
-		    background-position: top left;
         }
 
         img {
@@ -81,6 +79,21 @@
             }   
         }
     }
+}
+
+.paper {
+	.context {
+	   	background-image: url('/images/paper3.png')!important;
+		background-position: top left;
+		background-attachment: scroll;
+		&.on {
+			background-attachment: fixed!important;
+		}
+
+		&.bottom {
+			background-position: bottom left;
+		}
+   }
 }
 
 .wood {

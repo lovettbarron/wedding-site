@@ -1,12 +1,16 @@
 /* line 1, font.scss */
 body {
   font-family: 'junction',helvetica,sans-serif;
-  line-height: 28pt;
-  font-size: 18pt;
   color: #404041;
 }
 
-/* line 8, font.scss */
+/* line 6, font.scss */
+p {
+  line-height: 28pt;
+  font-size: 18pt;
+}
+
+/* line 11, font.scss */
 h1, h2, h3, h4, h5, h6, label {
   font-family: 'junction',helvetica,sans-serif;
   font-size: 15pt;

@@ -1,20 +1,38 @@
 /* line 1, quote.scss */
 .quote {
   background: transparent;
+  overflow: hidden;
 }
-/* line 3, quote.scss */
+/* line 5, quote.scss */
 .quote.on {
-  position: fixed;
+  position: fixed!important;
   top: 0;
   left: 0;
   bottom: 0;
   left: 0;
   z-index: -100;
 }
-/* line 10, quote.scss */
+/* line 12, quote.scss */
+.quote .fullscreen {
+  height: 100%;
+  width: 100%;
+}
+/* line 17, quote.scss */
+.quote .fullscreen img {
+  max-width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: auto;
+  position: fixed;
+}
+/* line 27, quote.scss */
 .quote p {
   text-align: center;
   text-decoration: italic;
-  margin-top: 25%;
-  font-size: 90pt;
+  margin-top: 20%;
+  font-size: 64pt;
+  line-height: 82pt;
 }
