@@ -1,0 +1,36 @@
+.yellow {background-color: $yellow!important;}
+.pink 	{background-color: $pink!important;}
+.blue 	{background-color: $blue!important;}
+
+.texture {
+    background-image: url('/images/paper2.png')!important;
+    background-position: top left;
+
+    &.locked {
+        background-attachment:fixed!important;
+    }
+}
+
+.unique {
+     overflow:hidden;
+}
+
+.ignore {
+    height: auto;
+}
+
+.inset {
+    box-shadow: 0px 5px 20px rgba(120,120,120,.8) inset;
+}
+
+.fullimage {
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+	height: 100%;
+	z-index: 0;
+	overflow: hidden;
+	img {
+		width: 100%;
+	}
+}

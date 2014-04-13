@@ -13,6 +13,10 @@ window.aawed = {
 
         this.inst.app = new aawed.Views.AppView();
         
+        this.inst.intro = new aawed.Views.IntroView({
+            el: '.header'
+        });
+
         this.inst.test = new aawed.Views.ContextronicView({
             el: '.intro',
             template:  JST['app/scripts/templates/1-intro.ejs'],
@@ -29,7 +33,6 @@ window.aawed = {
             // timer: 2000
         });
 
-
         this.quote.push(new aawed.Views.QuoteView({
             el: '.quote1',
             quote:"Before long, this respect led to love for his vivacious hair, playful grin, and generous heart. "
@@ -37,10 +40,10 @@ window.aawed = {
         _.each(this.quote,function(v,i) {
             v.init();
         });
-        this.inst.app.init();
-        this.inst.test.init();
-        this.inst.test2.init();
-        this.inst.map.init();
+
+        _.each(this.inst, function(v){
+            v.init();
+        })
     }
 };
 

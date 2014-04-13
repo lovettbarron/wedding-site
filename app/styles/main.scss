@@ -1,5 +1,6 @@
 @import 'lib/bootstrap';
 @import 'variables';
+@import 'helpers';
 @import 'font';
 @import 'contextronic';
 @import 'quote';
@@ -23,27 +24,6 @@ html,body {
     // overflow-x: hidden; //This breaks things.
 }
 
-.yellow {background-color: $yellow!important;}
-.pink 	{background-color: $pink!important;}
-.blue 	{background-color: $blue!important;}
-
-.texture {
-    background-image: url('/images/paper2.png')!important;
-    background-position: top left;
-
-    &.locked {
-        background-attachment:fixed!important;
-    }
-}
-
-.unique {
-     overflow:hidden;
-}
-
-.ignore {
-    height: auto;
-}
-
 section {
 	backface-visibility: hidden;
     z-index: 0;
@@ -56,9 +36,24 @@ section {
     }
 }
 
-.inset {
-    box-shadow: 0px 5px 20px rgba(120,120,120,.8) inset;
-    }
+section.header {
+	position:relative;
+	overflow:hidden;
+	.logo {
+		position:absolute;
+		top: 20%; left: 50%;
+		z-index: 1;
+		// width: 100%;
+		img {
+			position:relative;
+			left: -50%;
+			width: 100%;
+			max-width: 1024px;
+			height: auto;
+			margin: 0 auto;
+		}
+	}
+}
 
 section.map {
 	position:relative;
