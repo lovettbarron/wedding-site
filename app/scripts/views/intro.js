@@ -29,7 +29,7 @@ aawed.Views = aawed.Views || {};
             var wa = w.width() / w.height();
             console.log(ta,' >= ',wa);
             if(ta >= wa) {
-            	console.log('trigger height')
+            	// console.log('trigger height')
             	$(this.el).find('.background img').css({
             		position:'absolute',
             		right: 0,
@@ -38,7 +38,7 @@ aawed.Views = aawed.Views || {};
             		height: '100%'
             	})
             } else {
-            	console.log('trigger width')
+            	// console.log('trigger width')
             	$(this.el).find('.background img').	css({
             		position: 'inherit',
             		right: 'auto',

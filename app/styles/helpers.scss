@@ -2,6 +2,36 @@
 .pink 	{background-color: $pink!important;}
 .blue 	{background-color: $blue!important;}
 
+.paper {
+	.context {
+	   	background-image: url('/images/paper3.png')!important;
+		background-position: top left;
+		background-attachment: scroll;
+		&.on {
+			background-attachment: fixed!important;
+		}
+
+		&.bottom {
+			background-position: bottom left;
+		}
+   }
+}
+
+.wood {
+	.context {
+	   	background-image: url('/images/wood.png')!important;
+		background-position: top left;
+		background-attachment: scroll;
+		&.on {
+			background-attachment: fixed!important;
+		}
+
+		&.bottom {
+			background-position: bottom left;
+		}
+   }
+}
+
 .texture {
     background-image: url('/images/paper2.png')!important;
     background-position: top left;
@@ -21,6 +51,11 @@
 
 .inset {
     box-shadow: 0px 5px 20px rgba(120,120,120,.8) inset;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .fullimage {

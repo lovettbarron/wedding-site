@@ -39,7 +39,7 @@ aawed.Views = aawed.Views || {};
 
         update: function() {
         	 this.rect = this.el.getBoundingClientRect();
-        	 console.log(this.rect.top,this.rect.bottom,$(window).height())
+        	 // console.log(this.rect.top,this.rect.bottom,$(window).height())
             
             if (this.rect.top <= $(window).height()*2 && this.rect.bottom >= 0) {
             	$(this.el).find('.quote').addClass('on');

@@ -17,32 +17,31 @@ window.aawed = {
             el: '.header'
         });
 
-        this.inst.test = new aawed.Views.ContextronicView({
-            el: '.intro',
-            template:  JST['app/scripts/templates/1-intro.ejs'],
+        this.inst.rsvp = new aawed.Views.RsvpView({
+            el: '.rsvp-block'
+        });
+
+        this.inst.ayla = new aawed.Views.ContextronicView({
+            el: '.ayla-story',
+            template:  JST['app/scripts/templates/2-aylastory.ejs'],
             timer: 2000
         });
 
-        this.quote.push(new aawed.Views.QuoteView({
-            el: '.quote1',
-            quote:"Ayla's Story"
-        }));
-
-        this.inst.test2 = new aawed.Views.ContextronicView({
-            el: '.intro2',
-            template:  JST['app/scripts/templates/1-intro.ejs'],
+        this.inst.andrew = new aawed.Views.ContextronicView({
+            el: '.andrew-story',
+            template:  JST['app/scripts/templates/3-andrewstory.ejs'],
             timer: 2000
         });
 
-        this.inst.test3 = new aawed.Views.ContextronicView({
-            el: '.intro3',
-            template:  JST['app/scripts/templates/1-intro.ejs'],
+        this.inst.engage = new aawed.Views.ContextronicView({
+            el: '.engagement-story',
+            template:  JST['app/scripts/templates/4-engagement.ejs'],
             timer: 2000
         });
 
         this.quote.push(new aawed.Views.QuoteView({
             el: '.quote-map',
-            quote:"We want to invite you to Invermere"
+            quote:"Details"
         }));
 
         this.inst.map = new aawed.Views.MapView({

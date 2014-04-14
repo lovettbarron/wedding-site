@@ -32,63 +32,34 @@
   width: 75%;
   display: block;
 }
-/* line 50, contextronic.scss */
+/* line 51, contextronic.scss */
 .context .contextronic {
+  display: block;
   position: relative;
   width: 100%;
   padding-top: 25px;
   border: 0px 0px 1px 0px solid #eee;
 }
-/* line 58, contextronic.scss */
+/* line 60, contextronic.scss */
 .context .contextronic .card {
   padding: 10% 5% 10% 5%;
   margin: 5% 0 5% 5%;
   background: white;
   font-size: 18pt;
 }
-/* line 65, contextronic.scss */
+/* line 67, contextronic.scss */
 .context .contextronic img {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 71, contextronic.scss */
+  /* line 73, contextronic.scss */
   .context .contextronic {
     display: block!important;
   }
-  /* line 74, contextronic.scss */
+  /* line 76, contextronic.scss */
   .context .contextronic img {
     display: block;
     width: 100%;
     height: auto;
   }
-}
-
-/* line 85, contextronic.scss */
-.paper .context {
-  background-image: url("/images/paper3.png") !important;
-  background-position: top left;
-  background-attachment: scroll;
-}
-/* line 89, contextronic.scss */
-.paper .context.on {
-  background-attachment: fixed!important;
-}
-/* line 93, contextronic.scss */
-.paper .context.bottom {
-  background-position: bottom left;
-}
-
-/* line 100, contextronic.scss */
-.wood .context {
-  background-image: url("/images/wood.png") !important;
-  background-position: top left;
-  background-attachment: scroll;
-}
-/* line 104, contextronic.scss */
-.wood .context.on {
-  background-attachment: fixed!important;
-}
-/* line 108, contextronic.scss */
-.wood .context.bottom {
-  background-position: bottom left;
 }
