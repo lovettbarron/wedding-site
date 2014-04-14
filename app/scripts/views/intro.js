@@ -13,6 +13,7 @@ aawed.Views = aawed.Views || {};
         	$(window).on('resize',this.resize)
         	this.render();
         	this.resize();
+                this.resize();
         },
 
         render: function() {

@@ -30,6 +30,7 @@ aawed.Views = aawed.Views || {};
         	$('section:not(.unique)').width(this.w).height(this.h);
 
         	$('section.unique:not(.ignore)').height(function(){
+                // $(this).css({'min-height':$(window).height()});
                 if($(this).attr('data-height'))
             		return $(window).height() * $(this).attr('data-height');
                 else return 'auto';

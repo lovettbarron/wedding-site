@@ -3,12 +3,17 @@
   position: fixed!important;
   width: 50%!important;
 }
-/* line 21, contextronic.scss */
+/* line 12, contextronic.scss */
+.context.on .image.right .current, .context.on .image.right .buffer {
+  right: 0;
+  left: 50%;
+}
+/* line 26, contextronic.scss */
 .context.bottom .image .current, .context.bottom .image .buffer {
   top: auto;
   bottom: 0;
 }
-/* line 29, contextronic.scss */
+/* line 34, contextronic.scss */
 .context .image .current, .context .image .buffer {
   position: absolute;
   display: block;
@@ -17,46 +22,45 @@
   left: 0;
   overflow: hidden;
 }
-/* line 37, contextronic.scss */
+/* line 42, contextronic.scss */
 .context .image .current {
   z-index: 1;
 }
-/* line 38, contextronic.scss */
+/* line 43, contextronic.scss */
 .context .image .buffer {
   z-index: 0;
 }
-/* line 40, contextronic.scss */
+/* line 45, contextronic.scss */
 .context .image img {
   display: block;
-  margin: 20% auto;
+  margin: 10% auto;
   width: 75%;
   display: block;
 }
-/* line 51, contextronic.scss */
+/* line 56, contextronic.scss */
 .context .contextronic {
-  display: block;
   position: relative;
   width: 100%;
   padding-top: 25px;
   border: 0px 0px 1px 0px solid #eee;
 }
-/* line 60, contextronic.scss */
+/* line 65, contextronic.scss */
 .context .contextronic .card {
   padding: 10% 5% 10% 5%;
   margin: 5% 0 5% 5%;
   background: white;
   font-size: 18pt;
 }
-/* line 67, contextronic.scss */
+/* line 72, contextronic.scss */
 .context .contextronic img {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 73, contextronic.scss */
+  /* line 78, contextronic.scss */
   .context .contextronic {
     display: block!important;
   }
-  /* line 76, contextronic.scss */
+  /* line 81, contextronic.scss */
   .context .contextronic img {
     display: block;
     width: 100%;

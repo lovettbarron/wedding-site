@@ -40,18 +40,28 @@ section {
 section.header {
 	position:relative;
 	overflow:hidden;
-	.logo {
-		position:absolute;
-		top: 20%; left: 50%;
-		z-index: 1;
-		// width: 100%;
-		img {
-			position:relative;
-			left: -50%;
+
+	.logo-image {
+		margin-top: 30%;
+	}
+
+	@media only screen and (min-width: 400px) {
+		.logo-image {
 			width: 100%;
 			max-width: 1024px;
-			height: auto;
-			margin: 0 auto;
+			margin: 10% auto;
+		}
+	}
+
+	.logo {
+		
+		z-index: 1;
+		
+
+		.date {
+			margin-top: 15%;
+			text-align: center;
+			color: white;
 		}
 	}
 }

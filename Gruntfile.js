@@ -249,7 +249,8 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,txt}',
                         '.htaccess',
-                        'images/{,*/}*.{webp,gif}',
+                        'images/{,*/}*.*',
+                        'scripts/vendor/{,*/}*.*',
                         'styles/fonts/{,*/}*.*',
                         'bower_components/sass-bootstrap/fonts/*.*'
                     ]
@@ -350,9 +351,9 @@ module.exports = function (grunt) {
         'htmlmin',
         'concat',
         'cssmin',
-        'uglify',
+        // 'uglify',
         'copy',
-        'rev',
+        // 'rev',
         'usemin'
     ]);
 

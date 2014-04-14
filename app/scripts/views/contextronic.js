@@ -50,6 +50,10 @@ aawed.Views = aawed.Views || {};
 
 			$(this.el).find('.current, .buffer').height(t.height());
 
+			$(this.el).css({
+				'min-height': t.height()*.8}).children().css({'min-height': t.height()*.8});
+
+
 			$(this.el).find('.current').html("<img src=" +_this.sections[_this.current].img + " style='z-index:0'>");
 
             var t=0,i=0;
@@ -113,15 +117,16 @@ aawed.Views = aawed.Views || {};
             		}
             	})
             }
-
-        if (this.rect.top <= 0 && this.rect.bottom >= $(window).height()) {
-            // if(!this.timer) console.log('Contextronic on');
-        		$(this.el).find('.context').addClass('on').removeClass('bottom');
-            } else if (this.rect.bottom <= $(window).height() && this.rect.bottom >= 0) {                // if(!this.timer)console.log('Contextronic bottom');
-            	$(this.el).find('.context').addClass('bottom').removeClass('on');
-            } else {
-            	$(this.el).find('.context').removeClass('on bottom');
-            }
+        if($(this.el).height() >= $(window).height()) {
+	        if (this.rect.top <= 0 && this.rect.bottom >= $(window).height()) {
+	            // if(!this.timer) console.log('Contextronic on');
+	        		$(this.el).find('.context').addClass('on').removeClass('bottom');
+	            } else if (this.rect.bottom <= $(window).height() && this.rect.bottom >= 0) {                // if(!this.timer)console.log('Contextronic bottom');
+	            	$(this.el).find('.context').addClass('bottom').removeClass('on');
+	            } else {
+	            	$(this.el).find('.context').removeClass('on bottom');
+	            }
+	        }
         },
 
         superHack: function() {

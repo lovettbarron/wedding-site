@@ -4,8 +4,12 @@ body {
 }
 
 p {
-	line-height: 28pt;
-    font-size: 18pt;
+	line-height: 21pt;
+    font-size: 14pt;
+}
+
+.cursive {
+	font-family: 'Cedarville Cursive', cursive!important;
 }
 
 h1,h2,h3,h4,h5,h6,label {
@@ -15,6 +19,6 @@ h1,h2,h3,h4,h5,h6,label {
 }
 
 .card h3 {
-	
+
 	padding: 10pt 0 10pt 0;
 }

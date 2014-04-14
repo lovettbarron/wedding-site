@@ -37,3 +37,9 @@
   font-size: 64pt;
   line-height: 82pt;
 }
+@media only screen and (max-width: 639px) {
+  /* line 28, quote.scss */
+  .quote p {
+    font-size: 2em!important;
+  }
+}

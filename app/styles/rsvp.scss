@@ -31,5 +31,8 @@
 		margin-top: 20%;
 		font-size: 64pt;
 		line-height: 82pt;
+		@media only screen and (max-width: 639px) {
+			font-size: 2em!important;
+		}
 	}
 }
