@@ -35,7 +35,7 @@
 
 /* line 24, helpers.scss */
 .wood .context {
-  background-image: url("../images/wood.png") !important;
+  background-image: url("../images/retina_wood_@2X.png") !important;
   background-position: top left;
   background-attachment: scroll;
 }
