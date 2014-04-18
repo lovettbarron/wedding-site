@@ -7992,10 +7992,13 @@ section.map .map-cover {
 }
 /* line 79, main.scss */
 section.map .map-cover h1 {
-  margin-top: 20%;
-  font-size: 6em;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 5% 5% 5% 5%;
+  margin: 20%;
+  font-size: 3em;
 }
-/* line 85, main.scss */
+/* line 88, main.scss */
 section.map .map-frame {
   z-index: 0;
   width: 100%;
@@ -8003,16 +8006,16 @@ section.map .map-frame {
   left: 0;
   position: absolute;
 }
-/* line 92, main.scss */
+/* line 95, main.scss */
 section.map .map-on {
   display: none;
   z-index: 100;
   position: absolute;
   top: 10px;
   right: 10px;
-  background: #ddd683;
+  background: rgba(255, 255, 255, 0.7);
   text-align: center;
-  width: 250px;
+  width: 50px;
   height: auto;
   margin: 10px;
   border-radius: 8px;
@@ -8022,11 +8025,11 @@ section.map .map-on {
   -moz-box-shadow: 0px 3px 5px #000;
   -webkit-box-shadow: 0px 3px 5px #000;
 }
-/* line 93, main.scss */
+/* line 96, main.scss */
 section.map .map-on h3 {
   margin-bottom: 20px;
 }
-/* line 115, main.scss */
+/* line 118, main.scss */
 section.map .map-on:hover {
   color: #fqq;
   box-shadow: none;
