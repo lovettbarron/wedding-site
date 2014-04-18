@@ -7834,35 +7834,36 @@ h1, h2, h3, h4, h5, h6, label {
 .context .text {
   padding-left: 0;
   padding-right: 0;
+  margin: 10% 0 10% 0;
 }
-/* line 60, contextronic.scss */
+/* line 61, contextronic.scss */
 .context .contextronic {
   position: relative;
   width: 100%;
   padding-top: 25px;
   border: 0px 0px 1px 0px solid #eee;
 }
-/* line 69, contextronic.scss */
+/* line 70, contextronic.scss */
 .context .contextronic .card {
   padding: 10% 15% 10% 10%;
   margin: 5% 0 5% 0%;
   background: white;
   font-size: 18pt;
 }
-/* line 74, contextronic.scss */
+/* line 75, contextronic.scss */
 .context .contextronic .card h3 {
   padding: 0 10px 0 0;
 }
-/* line 79, contextronic.scss */
+/* line 80, contextronic.scss */
 .context .contextronic img {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 85, contextronic.scss */
+  /* line 86, contextronic.scss */
   .context .contextronic {
     display: block!important;
   }
-  /* line 88, contextronic.scss */
+  /* line 89, contextronic.scss */
   .context .contextronic img {
     display: block;
     width: 100%;

@@ -51,23 +51,18 @@ aawed.Views = aawed.Views || {};
 			$(this.el).find('.current, .buffer').height(t.height());
 
 			$(this.el).css({
-				'min-height': t.height()*.8}).children().css({'min-height': t.height()*.8});
+				'min-height': t.height()*.8}).children().css({'min-height': $(this.el).find('.text').height()});
 
 
 			$(this.el).find('.current').html("<img src=" +_this.sections[_this.current].img + " style='z-index:0'>");
 
             var t=0,i=0;
             $(this.el).find('.contextronic').each(function() { 
-                // $(this).css({'min-width':$(this).width()})
-                // $(this).height($(window).height()*.3)
                 t+=$(this).find('img').width();
             });
             t=t/i;
-            // $(this.el).find('img').css({
-            //     marginLeft:-t+'px'
-            // })
 
-            $(this.el).find('.image').height($(this.el).find('.text').height());
+            $(this.el).find('.image').height($(this.el).height());
         },
 
         render: function() {

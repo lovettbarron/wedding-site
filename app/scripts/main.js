@@ -41,7 +41,7 @@ window.aawed = {
 
         this.quote.push(new aawed.Views.QuoteView({
             el: '.quote-map',
-            quote:"details"
+            quote:"The details"
         }));
 
         this.inst.venue = new aawed.Views.ContextronicView({
