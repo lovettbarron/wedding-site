@@ -7844,21 +7844,25 @@ h1, h2, h3, h4, h5, h6, label {
 }
 /* line 65, contextronic.scss */
 .context .contextronic .card {
-  padding: 10% 5% 10% 5%;
+  padding: 5% 5% 10% 5%;
   margin: 5% 0 5% 5%;
   background: white;
   font-size: 18pt;
 }
-/* line 72, contextronic.scss */
+/* line 70, contextronic.scss */
+.context .contextronic .card h3 {
+  padding: 0 10px 0 0;
+}
+/* line 75, contextronic.scss */
 .context .contextronic img {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 78, contextronic.scss */
+  /* line 81, contextronic.scss */
   .context .contextronic {
     display: block!important;
   }
-  /* line 81, contextronic.scss */
+  /* line 84, contextronic.scss */
   .context .contextronic img {
     display: block;
     width: 100%;
