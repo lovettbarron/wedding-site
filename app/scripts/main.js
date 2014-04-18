@@ -95,6 +95,10 @@ window.aawed = {
             timer: 2000
         });
 
+        this.inst.footer = new aawed.Views.FooterView({
+            el: '.footer'
+        });
+
         _.each(this.quote,function(v,i) {
             v.init();
         });

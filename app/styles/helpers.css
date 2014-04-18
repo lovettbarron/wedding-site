@@ -13,68 +13,73 @@
   background-color: #b4cecd !important;
 }
 
-/* line 8, helpers.scss */
+/* line 6, helpers.scss */
+.gray {
+  background-color: gainsboro !important;
+}
+
+/* line 9, helpers.scss */
 .paper .context {
   background-image: url("../images/paper3.png") !important;
   background-position: top left;
   background-attachment: scroll;
 }
-/* line 12, helpers.scss */
+/* line 13, helpers.scss */
 .paper .context.on {
   background-attachment: fixed!important;
 }
-/* line 16, helpers.scss */
+/* line 17, helpers.scss */
 .paper .context.bottom {
   background-position: bottom left;
 }
 
-/* line 23, helpers.scss */
+/* line 24, helpers.scss */
 .wood .context {
   background-image: url("../images/wood.png") !important;
   background-position: top left;
   background-attachment: scroll;
 }
-/* line 27, helpers.scss */
+/* line 28, helpers.scss */
 .wood .context.on {
   background-attachment: fixed!important;
 }
-/* line 31, helpers.scss */
+/* line 32, helpers.scss */
 .wood .context.bottom {
   background-position: bottom left;
 }
 
-/* line 37, helpers.scss */
+/* line 38, helpers.scss */
 .texture {
   background-image: url("../images/paper2.png") !important;
   background-position: top left;
 }
-/* line 41, helpers.scss */
+/* line 42, helpers.scss */
 .texture.locked {
   background-attachment: fixed!important;
 }
 
-/* line 46, helpers.scss */
+/* line 47, helpers.scss */
 .unique {
   overflow: hidden;
 }
 
-/* line 50, helpers.scss */
+/* line 51, helpers.scss */
 .ignore {
   height: auto;
 }
 
-/* line 54, helpers.scss */
+/* line 55, helpers.scss */
 .inset {
   box-shadow: 0px 5px 20px rgba(120, 120, 120, 0.8) inset;
 }
 
-/* line 58, helpers.scss */
+/* line 59, helpers.scss */
 .row {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* line 63, helpers.scss */
+/* line 64, helpers.scss */
 .fullimage {
   position: absolute;
   top: 0;
@@ -86,7 +91,7 @@
   z-index: -1;
   overflow: hidden;
 }
-/* line 71, helpers.scss */
+/* line 72, helpers.scss */
 .fullimage img {
   width: 100%;
 }
