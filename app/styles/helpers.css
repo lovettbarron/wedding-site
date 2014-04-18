@@ -15,7 +15,7 @@
 
 /* line 8, helpers.scss */
 .paper .context {
-  background-image: url("/images/paper3.png") !important;
+  background-image: url("../images/paper3.png") !important;
   background-position: top left;
   background-attachment: scroll;
 }
@@ -30,7 +30,7 @@
 
 /* line 23, helpers.scss */
 .wood .context {
-  background-image: url("/images/wood.png") !important;
+  background-image: url("../images/wood.png") !important;
   background-position: top left;
   background-attachment: scroll;
 }
@@ -45,7 +45,7 @@
 
 /* line 37, helpers.scss */
 .texture {
-  background-image: url("/images/paper2.png") !important;
+  background-image: url("../images/paper2.png") !important;
   background-position: top left;
 }
 /* line 41, helpers.scss */
