@@ -7,7 +7,7 @@ body {
 /* line 6, font.scss */
 p {
   line-height: 21pt;
-  font-size: 15pt;
+  font-size: 14pt;
 }
 
 /* line 11, font.scss */
@@ -20,9 +20,4 @@ h1, h2, h3, h4, h5, h6, label {
   font-family: 'junction',helvetica,sans-serif;
   font-size: 15pt;
   font-variant: small-caps;
-}
-
-/* line 21, font.scss */
-.card h3 {
-  padding: 10pt 0 10pt 0;
 }

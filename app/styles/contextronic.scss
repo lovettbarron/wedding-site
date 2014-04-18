@@ -52,6 +52,10 @@
 
     }
 
+    .text {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     .contextronic {
     	// display:block;
@@ -64,7 +68,7 @@
 
         .card {
         	padding: 5% 5% 10% 5%;
-        	margin: 5% 0 5% 5%;
+        	margin: 5% 0 5% 0%;
         	background: white;
         	font-size: 18pt;
             h3 {
