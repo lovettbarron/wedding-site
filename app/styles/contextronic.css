@@ -37,30 +37,39 @@
   width: 75%;
   display: block;
 }
-/* line 56, contextronic.scss */
+/* line 55, contextronic.scss */
+.context .text {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 60, contextronic.scss */
 .context .contextronic {
   position: relative;
   width: 100%;
   padding-top: 25px;
   border: 0px 0px 1px 0px solid #eee;
 }
-/* line 65, contextronic.scss */
+/* line 69, contextronic.scss */
 .context .contextronic .card {
-  padding: 10% 5% 10% 5%;
-  margin: 5% 0 5% 5%;
+  padding: 5% 5% 10% 5%;
+  margin: 5% 0 5% 0%;
   background: white;
   font-size: 18pt;
 }
-/* line 72, contextronic.scss */
+/* line 74, contextronic.scss */
+.context .contextronic .card h3 {
+  padding: 0 10px 0 0;
+}
+/* line 79, contextronic.scss */
 .context .contextronic img {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 78, contextronic.scss */
+  /* line 85, contextronic.scss */
   .context .contextronic {
     display: block!important;
   }
-  /* line 81, contextronic.scss */
+  /* line 88, contextronic.scss */
   .context .contextronic img {
     display: block;
     width: 100%;
